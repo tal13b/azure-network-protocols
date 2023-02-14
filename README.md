@@ -23,7 +23,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 <h2>High-Level Steps</h2>
 
-Sharing out resources over the network by
+Sharing resources over the network by
 creating sample file shares with various permissions.
 
 Set the following permissions (share the folder) for the “Domain Users” group:
@@ -36,7 +36,7 @@ Folder: “no-access”, Group: “Domain Admins”, “Permissions: “Read/Wri
 
 
 Normal domain users are granted permission to only read from the "read-access" group, read and write in the "write-acces" group, and not access the "no-access" group at all. 
-Admin only are allowed permission to access the "no access" group.
+Only Admins are allowed permission to access the "no access" group.
 
 
 <h2>Actions and Observations</h2>
